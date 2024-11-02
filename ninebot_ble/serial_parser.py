@@ -8,8 +8,12 @@ class SerialParser:
         E = "N2G"
         MAX = "N4G"
         F = "N5G"
+        Moped = "S1D"
 
     PRODUCT_VERSION_MAPPING = {
+        ProductSeries.Moped: {
+            "A": "S110 (45km/h)",
+        },
         ProductSeries.E: {
             "D": "E22",
             "G": "E22E",
